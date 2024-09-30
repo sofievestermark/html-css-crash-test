@@ -4,37 +4,39 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--- Write the correct path to the favicon.ico inside the href attribute below --->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <!--- Write the correct path to the favicon.ico inside the href attribute below --->
-    <link rel="icon" href="" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <!--- Add a link to stylesheet --->
-    <title>Marioclub News</title>
+    <title>Marioclub Contact</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
     <header>
-        <!--- Convert h1 tag into a clickable link that opens the landingpage - index.html --->
-        <h1>Marioclub</h1>
+   <!--- Convert h1 tag into a clickable link that opens the landingpage - index.html --->
+   <a href="index.html"><h1>Marioclub</h1></a>
     </header>
     <section class="banner">
         <!--- Add a image tag that displays banner.jpg and add an alt attribute with following text "marioclub welcome banner"  --->
-
+<img src="img/BANNER.jpg" alt="marioclub welcome banner">
         <div class="welcome">
             <h2>Marioclub<br><span>News</span></h2>
         </div>
     </section>
     <nav class="main-nav">
         <ul>
-            <!--- Add a link around the <li>Join the club</li> tag that refers to index.html --->
-            <li>Join the club</li>
-            <!--- Add a link tag around the <li>Lastest news</li> tag that refers to news.html and inside the link tag add a class attribute named "join" --->
-            <li>Latest news</li>
-            <!--- Add a link tag around the <li>New games</li> tag that refers to games.html --->
-            <li>New games</li>
-            <!--- Add a link tag around the <li>Contact</li> tag that refers to contact.html --->
-            <li>>Contact</li>
+               <!--- Add a link around the <li>Join the club</li> tag that refers to index.html --->
+               <li><a href="index.html">Join the club</a></li>
+               <!--- Add a link tag around the <li>Lastest news</li> tag that refers to news.html --->
+               <li><a href="news.html">Latest news</a></li>
+               <!--- Add a link tag around the <li>New games</li> tag that refers to games.html and inside the link tag add a class attribute named "join" --->
+               <li><a href="games.html" class="join">New games</a></li>
+               <!--- Add a link tag around the <li>Contact</li> tag that refers to contact.html  --->
+               <li><a href="contact.html">Contact</a></li>
+ 
         </ul>
     </nav>
     <main>
@@ -52,9 +54,9 @@
         </article>
         <ul class="images">
             <!--- Add a image tag inside <li> tag that displays image "thumb-1.jpg" and add an alt-attribute with following text "mario thumbnail 1 --->
-            <li></li>
+            <li><img src="img/Thumb-1.JPG" alt="mario thumbnail 1"></li>
             <!--- Add a image tag inside <li> tag that displays image "thumb-2.jpg" and add an alt-attribute with following text "mario thumbnail 2 --->
-            <li></li>
+            <li><img src="img/Thumb-2.jpg" alt="mario thumbnail 2"></li>
         </ul>
     </main>
     <section class="join">
